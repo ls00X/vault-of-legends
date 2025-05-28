@@ -1,0 +1,1 @@
+<h1>Charakter Detail-Ansicht</h1>

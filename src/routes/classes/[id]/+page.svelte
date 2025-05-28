@@ -1,0 +1,1 @@
+<h1>Klassenübersicht im Detail</h1>

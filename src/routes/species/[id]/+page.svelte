@@ -1,0 +1,1 @@
+<h1>Spezien Detail-Ansicht</h1>
