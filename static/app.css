@@ -97,7 +97,23 @@ a:hover {
   text-decoration: none;
 }
 
+/* .card img {
+  object-fit: contain;
+  height: 220px;
+  width: 100%;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+} */
 
+.character-name-fixed {
+    min-height: 3.2em; /* Platz für max. 2 Zeilen */
+    line-height: 1.4em;
+    overflow: hidden;
+  }
+
+  .object-fit-cover {
+    object-fit: cover;
+  }
 
 .footer {
   color: var(--gold);

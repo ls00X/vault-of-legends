@@ -16,7 +16,7 @@
     <!-- Rechte Seite: Bild -->
     <div class="col-md-4 text-end">
         <img src={species.image} alt={species.name}
-          class="img-fluid rounded shadow" style="max-height: 300px;" />
+          class="img-fluid rounded shadow" style="max-height: 300px" />
     </div>
   </div>
 

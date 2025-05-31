@@ -18,7 +18,7 @@
     Lege neue Charaktere an, bearbeite bestehende oder stöbere durch alle verfügbaren Klassen und Spezies.
   </p>
 
-  <div class="mt-4">
+  <div class="mt-5">
     <a href="/characters/new" class="btn-standard">Charakter erstellen</a>
   </div>
 </main>
