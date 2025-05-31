@@ -1,0 +1,114 @@
+:root {
+  --gold: #d4af37;
+  --dark:  #171a1c;
+}
+
+body {
+  background-color: var(--dark);
+  color: #f8f9fa;
+}
+
+.layout-wrapper {
+  background-color: var(--dark);
+  color: var(--gold);
+}
+
+a {
+  color: var(--gold);
+}
+
+a:hover {
+  color: #fff;
+}
+
+.startseite-expanded {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  text-align: left;
+}
+
+.start-title-wide {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.logo-block {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.start-logo-banner {
+  width: 250px;
+  max-width: 80%;
+  opacity: 0.85;
+  filter: drop-shadow(0 0 10px #d4af3744);
+}
+
+.btn-standard {
+  background-color: var(--gold);
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  text-decoration: none;
+ 
+}
+
+.btn-standard:hover {
+  background-color: #c19a2b;
+  color: black;
+  text-decoration: none;
+}
+
+.btn-light {
+  color: var(--gold);
+  padding: 0.5rem 0rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  text-decoration: none;
+
+}
+
+.btn-light:hover {
+  color: #c19a2b;
+  text-decoration: none;
+}
+
+.btn-löschen {
+  background-color: #b00000;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  text-decoration: none;
+ 
+}
+
+.btn-löschen:hover {
+  background-color: #8b0000; ;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+.footer {
+  color: var(--gold);
+  font-size: 0.9rem;
+  padding: 1rem;
+  text-align: right;
+  border-top: none;
+}
+
+.footer-text {
+  color: var(--gold);
+}
+
+

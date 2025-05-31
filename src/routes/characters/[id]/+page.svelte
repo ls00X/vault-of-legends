@@ -1,1 +1,6 @@
-<h1>Charakter Detail-Ansicht</h1>
+<script>
+  import CharacterDetailCard from '$lib/components/CharacterDetailCard.svelte';
+  export let data;
+</script>
+
+<CharacterDetailCard character={data.character} />

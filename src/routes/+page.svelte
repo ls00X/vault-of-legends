@@ -1,19 +1,24 @@
-<script>
-  // optional: hier später Navigation oder Layouts einbinden
-</script>
+<main class="startseite-expanded">
+  <div class="logo-block">
+    <img src="/Logo.png" alt="Vault of Legends Logo" class="start-logo-banner" />
+  </div>
 
-<main>
-  <h1>Willkommen bei <em>Vault of Legends</em></h1>
-  <p>
-    Diese Anwendung erlaubt dir, deine eigenen Dungeons & Dragons-Charaktere digital zu verwalten.
+  <h1 class="start-title-wide">Willkommen in der <em>Vault of Legends</em></h1>
+
+  <p class="lead text-light">
+    <strong>Vault of Legends</strong> ist eine Webanwendung, mit der du deine eigenen <strong>Dungeons & Dragons</strong>-Charaktere digital erstellen und verwalten kannst.
   </p>
-  <p>
-    Du kannst Charaktere anlegen, bearbeiten und deren Klasse sowie Spezies einsehen.
+
+  <p class="text-light">
+    Dungeons & Dragons (kurz <strong>D&D</strong>) ist ein Fantasy-Rollenspiel, bei dem du in die Rolle eines Charakters schlüpfst.
+    Dieser besitzt eine <strong>Spezies</strong>, eine <strong>Klasse</strong> und einzigartige <strong>Fähigkeiten</strong> – all das kannst du hier übersichtlich verwalten.
   </p>
-  <!-- Styling in CSS Klassen umcoden!!!!-->
-  <img src="/Logo.png" alt="Vault of Legends Logo" width="200" />
-  <br />
-  <a href="/characters" style="display:inline-block; margin-top:1rem; background:#d4af37; padding:0.5rem 1rem; color:black; border-radius:0.5rem;">
-    → Zur Charakterliste
-  </a>
+
+  <p class="text-light">
+    Lege neue Charaktere an, bearbeite bestehende oder stöbere durch alle verfügbaren Klassen und Spezies.
+  </p>
+
+  <div class="mt-4">
+    <a href="/characters/new" class="btn-standard">Charakter erstellen</a>
+  </div>
 </main>
