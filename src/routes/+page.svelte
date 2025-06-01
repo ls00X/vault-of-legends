@@ -19,6 +19,6 @@
   </p>
 
   <div class="mt-5">
-    <a href="/characters/new" class="btn-standard">Charakter erstellen</a>
+    <a href="/characters/new" class="btn-standard">Character erstellen</a>
   </div>
 </main>

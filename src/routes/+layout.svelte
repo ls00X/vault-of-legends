@@ -5,6 +5,7 @@
 <div class="layout-wrapper text-light min-vh-100 d-flex flex-column">
   <Navbar />
 
+  <!-- svelte-ignore slot_element_deprecated -->
   <main class="container my-4 flex-grow-1">
     <slot />
   </main>
