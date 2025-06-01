@@ -1,6 +1,6 @@
 <script>
   import CharacterDetailCard from '$lib/components/CharacterDetailCard.svelte';
-  export let data;
+  const { data } = $props();
 </script>
 
 <CharacterDetailCard character={data.character} />

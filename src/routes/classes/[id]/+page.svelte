@@ -1,6 +1,6 @@
 <script>
   import ClassDetailCard from '$lib/components/ClassDetailCard.svelte';
-  export let data;
+  const { data } = $props();
 </script>
 
-<ClassDetailCard cls={data.classData} />
+<ClassDetailCard classData={data.classData} />

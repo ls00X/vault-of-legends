@@ -1,6 +1,6 @@
 <script>
   import CharacterForm from '$lib/components/CharacterForm.svelte';
-  export let data;
+  const { data } = $props();
 </script>
 
 <h1>{data.character.name} bearbeiten</h1>

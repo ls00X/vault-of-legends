@@ -1,6 +1,6 @@
 <script>
   import SpeciesDetailCard from '$lib/components/SpeciesDetailCard.svelte';
-  export let data;
+  const { data } = $props();
 </script>
 
 <SpeciesDetailCard species={data.speciesData} />

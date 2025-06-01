@@ -1,9 +1,9 @@
 <script>
     import CharacterCard from '$lib/components/CharacterCard.svelte';
-    export let data;
+    const { data } = $props();
 </script>
 
-<h1>Alle Charaktere</h1>
+<h1>Alle Characters</h1>
 
 <div class="mt-4 mb-4">
 <a href="/characters/new" class="btn-standard"> Neuen Charakter erstellen</a>
